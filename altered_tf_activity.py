@@ -44,8 +44,8 @@ with st.sidebar:
 
     if whichdata=='Example':
         st.markdown('Run on example (*E. coli*, microarray expression data for [pH 8.7 vs. pH 7](https://doi.org/10.1128/jb.187.1.304-319.2005), [RegulonDB 8.6](https://doi.org/10.1093/nar/gky1077))')
-        network_file = r'./RegulonDB_pairs.txt'
-        geneexp_file = r'./ph8p7_degenes_fdr1e-3_fc2.txt'
+        network_file = r'./data/RegulonDB_pairs.txt'
+        geneexp_file = r'./data/ph8p7_degenes_fdr1e-3_fc2.txt'
     
     if whichdata=='User input':
         st.header("File uploads")
