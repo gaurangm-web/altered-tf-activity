@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pandas
+collections
+scipy
+operator
+networkx
