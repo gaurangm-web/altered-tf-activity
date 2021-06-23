@@ -1,2 +1,2 @@
 # altered-tf-activity
-Streamlit app for gene expression analysis
+Python code for Streamlit app for gene expression analysis
