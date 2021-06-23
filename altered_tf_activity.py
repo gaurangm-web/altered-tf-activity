@@ -5,9 +5,7 @@ Created by Gaurang Mahajan on June 21 2021.
 
 import streamlit as st
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
 import pandas as pd
 from collections import Counter,OrderedDict
 from scipy import stats
@@ -178,7 +176,7 @@ if submit_status:
             st.markdown('**Distribution of min. p-values on randomized data (*-ve control*) <sup>b</sup>**:',unsafe_allow_html=True)           
         pval_dist = []
         tfscore = {tf:0 for tf in regs}
-        Nmax = 2
+        Nmax = 20
         for n in range(Nmax):
         
             siggenes_rnd=list(np.random.choice(allgenes,len(siggenes)))
