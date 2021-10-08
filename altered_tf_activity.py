@@ -216,7 +216,7 @@ if submit_status:
             for tf in tfsol_approx_rnd: tfscore[tf] +=1
          
         df3 = sorted([(tf,100*tfscore[tf]/float(Nmax)) for tf in tfsol_opt],key=itemgetter(-1),reverse=True)
-        st.write(z-score of the original TF subnet output = ',round((pval_opt - np.mean(pval_dist))/np.std(pval_dist),1))
+        st.write('z-score of the original TF subnet output = ',round((pval_opt - np.mean(pval_dist))/np.std(pval_dist),1))
         
         ######################################
         #### Plotting the summary statistics:
