@@ -67,7 +67,7 @@ with st.sidebar:
         [Mahajan & Mande, 2015](https://doi.org/10.1371/journal.pone.0142147))")
 
 with st.beta_container():
-    st.header("**TF scores on loaded DGE data**")
+    st.header("**Related genome-wide expression changes to altered regulatory protein activity (Loaded DGE data -> TF scores)**")
    
 e1=0
 e2=0
